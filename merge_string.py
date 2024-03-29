@@ -1,6 +1,6 @@
 word1 = "ab"
 word2 = "pqrs"
-# output "apbqcr"
+# output "apbqrs"
 
 def merge_string(w1, w2):
     merged = ""

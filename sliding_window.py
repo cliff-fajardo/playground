@@ -16,7 +16,7 @@ def maxProfit(arr):
             maxP = max(profit, maxP)    # store the max profit
         else:
             b = s                       # sell point is lower than buy, so move buy to sell point
-        s += 1
+        s += 1                          # move sell point to the next space
     return maxP
 
 
